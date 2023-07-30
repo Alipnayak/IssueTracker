@@ -1,5 +1,5 @@
 {
-  "name": "ninja-bug-tracker",
+  "name": "Issue_tracker",
   "version": "1.0.0",
   "description": "Nodejs + ejs Application to track issues/bugs for a project",
   "main": "index.js",
@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "Vivek Raj",
+  "engines": {
+"node": "14.20.1"
+},
+  "author": "shivam",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.7",
