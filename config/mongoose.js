@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const url = 'mongodb+srv://shiva850681:Kaliya8506@cluster0.cro6kwk.mongodb.net/Issue_tracker?retryWrites=true&w=majority';
-// mongoose.connect('url') 
+//mongoose.connect('url') 
 mongoose.connect(url);
 const db=mongoose.connection;
 
