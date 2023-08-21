@@ -1,4 +1,4 @@
-// get the form
+//get the form
 let filterIssueForm = document.getElementById('filter-issue-form');
 // get the details of the issues of the project in json
 let issuesJson = document.getElementById('issue-data').getAttribute('data');
