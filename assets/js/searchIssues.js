@@ -13,7 +13,7 @@ searchIssueForm.addEventListener('submit', function (e) {
   //create empty array where result will be stored
   let searchedIssues = [];
 
-  //get all the form data
+  // get all the form data
 
   let titleValue = searchIssueForm.querySelector('input[name="tie"]').value;
   let descriptionValue =
