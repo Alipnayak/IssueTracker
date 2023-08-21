@@ -1,4 +1,4 @@
-//get the form
+// get the form
 let searchIssueForm = document.getElementById('search-issue-form');
 // get the details of the issues of the project in json
 let searchJson = document.getElementById('issue-data').getAttribute('data');
